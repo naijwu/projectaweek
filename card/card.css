@@ -1,0 +1,127 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html,
+body {
+    height:100%;
+    width:100%;
+}
+
+main {
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.card {
+    width:450px;
+    height:600px;
+    overflow:hidden;
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.08);
+}
+
+.card h1,
+.card h2,
+.card h3,
+.card h4 {
+    display:inline-block;
+    color:white;
+    font-family:"DM Sans", sans-serif;
+}
+
+.card h1,
+.card h2,
+.card h3 {
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+.card h1 {
+    font-size:70px;
+    line-height:70px;
+    letter-spacing:3px;
+}
+
+.card h4 {
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing:1.5px;
+    font-size:14px;
+}
+
+.card .card--img-container {
+    height:100%;
+    width:100%;
+}
+
+.card .card--img {
+    object-fit:cover;
+    height:100%;
+    width:100%;
+}
+
+.card .card--text-container {
+    transform:translateY(-100%);
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding-bottom:35px;
+    padding-right:15px;
+    padding-left:15px;
+    background:linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.1), rgba(0,0,0,0.8),rgba(0,0,0,1));
+}
+
+.card .card--top,
+.card .card--bottom,
+.card .card--footer {
+    display:flex;
+    align-items:flex-end;
+}
+
+.card .card--top {
+    padding-bottom:35px;
+}
+
+.card .card--bottom {
+    padding-bottom:35px;
+}
+
+.card .card--bottom .card--left,
+.card .card--bottom .card--right {
+    display:flex;
+    flex-direction: column;
+}
+
+.card .card--top h1,
+.card .card--top h2,
+.card .card--left,
+.card .card--right,
+.card .card--left-text,
+.card .card--button {
+    width:50%;
+}
+
+.card .card--button {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.card a.card--button-link {
+    padding:10px 30px;
+    color:lightgreen;
+    font-family:"DM Sans", sans-serif;
+    font-weight:700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing:1.5px;
+    border-radius:35px;
+    border:1.5px solid lightgreen;
+}
