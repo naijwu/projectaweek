@@ -1,4 +1,4 @@
-# projectaweek
+# projectayear
 One project/design/chickenscratch a year
 
 Projects:
