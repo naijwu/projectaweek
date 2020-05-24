@@ -1,5 +1,5 @@
 # projectaweek
-One project/design/chickenscratch a week
+One project/design/chickenscratch a year
 
 Projects:
- - Week 1: Card Design
+ - Year 1: Card Design
